@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+<title>User Information</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+<meta name="generator" content="Jekyll v3.8.6">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link rel="stylesheet" href="stylesheet.css" type="txt/css">
+</head>
+<body style="padding: 2rem;">
+   <p class="text-center">please  provide  the following information About Your website</p>
+   <div class="container">
+        <fieldset>
+            <legend>About Your website</legend>   
+            <form action="">
+                    <div class="form-group">
+                        <label for="domain">Domain</label>  
+                        <input class="form-control" type="text" name="domain"  id="domain" placeholder ="website name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="srch-dom">Search Possible domains</label>  
+                        <input class="form-control" placeholder="Search" name="srch-dom" 
+                        id="srch-dom" type="text">
+                   </div>
+
+                   <div class="form-group">
+                        <label for="sel1">Select Category of your Website(Select one):</label>  
+                        <select class="form-control" id="sel1">
+                            <option>Dog Walker</option>
+                            <option>Event Planner</option>
+                            <option>Photographer</option>
+                            <option>Car Washing||Detailing Services</option>
+                            <option>Hardware</option>
+                            <option>Filling Station</option>
+                            <option>T-shirt Designer</option>
+                            <option>Renovation Services</option>
+                            <option>Car Hire Services</option>
+                            <option>Electronic Shops</option>
+                            <option>Dread Salon</option>
+                            <option>Land Buying and Selling</option>
+                            <option>Others.....</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="others">Or</label>  
+                        <input class="form-control" placeholder="Enter Your Category here" name="others" 
+                        id="others" type="text">
+                    </div> 
+
+                     <legend>Additional Information About Your Website</legend>
+                    <div class="form-group">
+                        <label for="intro">Inroduction Text:</label>  
+                        <textarea class="form-control" rows="5" id="intro" placeholder="e.g what you want others to know about you in this website" required></textarea>
+                     </div> 
+                      <p>Please fill  out one or both where applicable</p>
+                    <div class="form-group">
+                        <label for="services">Services (optional):</label>  
+                        <textarea class="form-control" rows="5" id="intro" placeholder="
+                        service 1
+                        service 2 
+                        service 3
+                        ........."  
+                        
+                        ></textarea>
+
+                        </textarea>
+                   </div>  
+
+                <div class="form-group">
+                    <label for="products">Products (Optional):</label>  
+                    <textarea class="form-control" rows="5" id="intro" placeholder="
+                    product 1 
+                    product 2 
+                    product 3
+                    ........."  
+                    
+                    ></textarea>
+
+                    </textarea>
+                </div>  
+
+                <div class="form-group">
+                    <label for="heading">Choose a Heading For Your Website</label>  
+                    <input class="form-control" placeholder="e.g. Executive Dreadlock Parlour" name="heading" 
+                    id="heading" type="text" required>
+                </div> 
+                
+                    <p>Please Enter Your Contacts Details<br>
+                    (visitors to you website will use this information to contact you e.g. when placing and order ,making bookings e.t.c)</p>
+
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="tel">Telephone</label>
+                        <input type="number" id="tel" class="form-control" placeholder="(+254) (123) (456) (789)" required> 
+                    </div>
+
+                    <div class="form-group col-md-6">
+                        <label for="office-tel">Office Line(optional    )</label>
+                        <input type="number" id="office-tel" class="form-control" placeholder="(+254) (123) (456) (789)"> 
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6" >
+                        <label for="email">Email</label>
+                        <input type="number" id="email" class="form-control" placeholder="someone@example.com" required> 
+                    </div>
+
+                    <div class="form-group  col-md-6">
+                        <label for="adress">Physical Adress</label>
+                        <input type="text" id="adress" class="form-control" placeholder="some place where you are located .e.g Town behind somewhere ,floor" required> 
+                    </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="city">City</label>
+                        <input type="text" class="form-control" id="city" placeholder="City,Town, Village" required>
+                    </div>
+                    </div> 
+            </form>
+        </fieldset>
+        <input style="width: 100%; margin-left: 15.5rem;" type="submit" class="btn btn-outline-success btn-lg col-md-8" value="Submit">
+   </div>
+</body>
+</html>
